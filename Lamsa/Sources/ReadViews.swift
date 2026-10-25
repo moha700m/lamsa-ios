@@ -164,7 +164,7 @@ struct TagResultView: View {
                 }
                 HStack(spacing: 10) {
                     Button { askSave = true } label: { Label(L("action.save"), systemImage: "bookmark") }.buttonStyle(SecondaryButtonStyle()).disabled(info.records.isEmpty)
-                    Button { store.draft = info.records } label: { Label(L("action.edit"), systemImage: "square.and.pencil") }.buttonStyle(SecondaryButtonStyle()).disabled(info.records.isEmpty)
+                    Button { store.draft = info.records; UserDefaults.standard.set(1, forKey: "tab") } label: { Label(L("action.edit"), systemImage: "square.and.pencil") }.buttonStyle(SecondaryButtonStyle()).disabled(info.records.isEmpty)
                     ShareLink(item: shareText) { Label(L("action.share"), systemImage: "square.and.arrow.up") }.buttonStyle(SecondaryButtonStyle())
                 }
                 if info.dump != nil {

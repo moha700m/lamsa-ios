@@ -1,6 +1,7 @@
 import SwiftUI
 
 struct ToolsView: View {
+    @AppStorage("tab") private var tab = 0
     @EnvironmentObject var nfc: NFCService
     @EnvironmentObject var store: Store
     @State private var confirmErase = false
@@ -22,7 +23,7 @@ struct ToolsView: View {
                         else { copyStep = 0; nfc.start(.read); awaitingCopy = true }
                     }
                     tool("memorychip", L("tools.dump"), L("tools.dump.desc")) { awaitingDump = true; nfc.start(.dump(password: nil)) }
-                    tool("square.stack", L("tools.batch"), L("tools.batch.desc")) { UserDefaults.standard.set(1, forKey: "tab") }
+                    tool("square.stack", L("tools.batch"), L("tools.batch.desc")) { tab = 1 }
                     section(L("tools.section.protect"))
                     tool("key", L("tools.pwdSet"), L("tools.pwdSet.desc")) { pwdMode = .set }
                     tool("key.slash", L("tools.pwdRemove"), L("tools.pwdRemove.desc")) { pwdMode = .remove }
@@ -118,6 +119,7 @@ struct PasswordSheet: View {
 }
 
 struct HistoryView: View {
+    @AppStorage("tab") private var tab = 0
     @EnvironmentObject var store: Store
     @EnvironmentObject var nfc: NFCService
     @State private var seg = 0
@@ -161,7 +163,7 @@ struct HistoryView: View {
                                     ForEach(p.records) { RecordRow(record: $0) }
                                     HStack(spacing: 10) {
                                         Button { nfc.start(.write(p.records, batch: false, password: nil)) } label: { Label(L("write.go"), systemImage: "wave.3.right") }.buttonStyle(PrimaryButtonStyle())
-                                        Button { store.draft = p.records; UserDefaults.standard.set(1, forKey: "tab") } label: { Label(L("action.edit"), systemImage: "square.and.pencil") }.buttonStyle(SecondaryButtonStyle())
+                                        Button { store.draft = p.records; tab = 1 } label: { Label(L("action.edit"), systemImage: "square.and.pencil") }.buttonStyle(SecondaryButtonStyle())
                                     }
                                 }
                             }
