@@ -49,8 +49,8 @@ final class NDEFTests: XCTestCase {
         XCTAssertEqual(try NDEF.decode(bin), recs)
     }
     func testKnownBytes() throws {
-        // D1 01 08 55 04 6D 6F 68 61 2E 64 65 76 = single short URI "https://moha.dev"
-        let bin = Data([0xD1, 0x01, 0x0C, 0x55, 0x04] + Array("moha.dev/a/b".utf8))
+        // D1 01 0D 55 04 + "moha.dev/a/b" = single short URI record
+        let bin = Data([0xD1, 0x01, 0x0D, 0x55, 0x04] + Array("moha.dev/a/b".utf8))
         let r = try NDEF.decode(bin)
         XCTAssertEqual(r.count, 1); XCTAssertEqual(NDEF.parse(r[0]), .uri("https://moha.dev/a/b"))
         XCTAssertEqual(NDEF.encode(r), bin)
