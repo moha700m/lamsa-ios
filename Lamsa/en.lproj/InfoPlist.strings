@@ -1,0 +1,3 @@
+"CFBundleDisplayName" = "Lamsa";
+"NFCReaderUsageDescription" = "Lamsa uses NFC to read and write tags and stickers";
+"NSCameraUsageDescription" = "The camera scans QR codes to turn them into NFC tags";

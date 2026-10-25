@@ -1,0 +1,2573 @@
+{
+ "sourceLanguage": "ar",
+ "version": "1.0",
+ "strings": {
+  "a11y.delete": {
+   "extractionState": "manual",
+   "localizations": {
+    "ar": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "حذف"
+     }
+    },
+    "en": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Delete"
+     }
+    }
+   }
+  },
+  "a11y.language": {
+   "extractionState": "manual",
+   "localizations": {
+    "ar": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "تغيير اللغة"
+     }
+    },
+    "en": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Change language"
+     }
+    }
+   }
+  },
+  "a11y.up": {
+   "extractionState": "manual",
+   "localizations": {
+    "ar": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "تحريك لفوق"
+     }
+    },
+    "en": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Move up"
+     }
+    }
+   }
+  },
+  "action.copyTag": {
+   "extractionState": "manual",
+   "localizations": {
+    "ar": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "انسخها لبطاقة ثانية"
+     }
+    },
+    "en": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Copy to another tag"
+     }
+    }
+   }
+  },
+  "action.copyText": {
+   "extractionState": "manual",
+   "localizations": {
+    "ar": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "نسخ النص"
+     }
+    },
+    "en": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Copy text"
+     }
+    }
+   }
+  },
+  "action.edit": {
+   "extractionState": "manual",
+   "localizations": {
+    "ar": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "تعديل"
+     }
+    },
+    "en": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Edit"
+     }
+    }
+   }
+  },
+  "action.open": {
+   "extractionState": "manual",
+   "localizations": {
+    "ar": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "فتح"
+     }
+    },
+    "en": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Open"
+     }
+    }
+   }
+  },
+  "action.save": {
+   "extractionState": "manual",
+   "localizations": {
+    "ar": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "حفظ"
+     }
+    },
+    "en": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Save"
+     }
+    }
+   }
+  },
+  "action.share": {
+   "extractionState": "manual",
+   "localizations": {
+    "ar": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "مشاركة"
+     }
+    },
+    "en": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Share"
+     }
+    }
+   }
+  },
+  "add": {
+   "extractionState": "manual",
+   "localizations": {
+    "ar": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "إضافة"
+     }
+    },
+    "en": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Add"
+     }
+    }
+   }
+  },
+  "app.name": {
+   "extractionState": "manual",
+   "localizations": {
+    "ar": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "لمسة"
+     }
+    },
+    "en": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Lamsa"
+     }
+    }
+   }
+  },
+  "app.note": {
+   "extractionState": "manual",
+   "localizations": {
+    "ar": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "رابط التطبيق يفتح على الآيفون، واسم الحزمة يفتح التطبيق على أندرويد"
+     }
+    },
+    "en": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "The link opens on iPhone; the package name opens the app on Android"
+     }
+    }
+   }
+  },
+  "cancel": {
+   "extractionState": "manual",
+   "localizations": {
+    "ar": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "إلغاء"
+     }
+    },
+    "en": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Cancel"
+     }
+    }
+   }
+  },
+  "continue": {
+   "extractionState": "manual",
+   "localizations": {
+    "ar": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "متابعة"
+     }
+    },
+    "en": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Continue"
+     }
+    }
+   }
+  },
+  "demo.profile": {
+   "extractionState": "manual",
+   "localizations": {
+    "ar": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "شبكة البيت"
+     }
+    },
+    "en": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Home network"
+     }
+    }
+   }
+  },
+  "demo.text": {
+   "extractionState": "manual",
+   "localizations": {
+    "ar": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "أهلًا من لمسة"
+     }
+    },
+    "en": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Hello from Lamsa"
+     }
+    }
+   }
+  },
+  "done": {
+   "extractionState": "manual",
+   "localizations": {
+    "ar": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "تم"
+     }
+    },
+    "en": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Done"
+     }
+    }
+   }
+  },
+  "err.dumpType": {
+   "extractionState": "manual",
+   "localizations": {
+    "ar": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "قراءة الذاكرة تشتغل مع NTAG و Ultralight بس"
+     }
+    },
+    "en": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Memory read works with NTAG and Ultralight only"
+     }
+    }
+   }
+  },
+  "err.noNdef": {
+   "extractionState": "manual",
+   "localizations": {
+    "ar": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "البطاقة ما تدعم NDEF"
+     }
+    },
+    "en": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "This tag doesn't support NDEF"
+     }
+    }
+   }
+  },
+  "err.pwdType": {
+   "extractionState": "manual",
+   "localizations": {
+    "ar": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "كلمة السر تشتغل مع NTAG21x و Ultralight EV1 بس"
+     }
+    },
+    "en": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Passwords work with NTAG21x and Ultralight EV1 only"
+     }
+    }
+   }
+  },
+  "err.readOnly": {
+   "extractionState": "manual",
+   "localizations": {
+    "ar": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "البطاقة مقفولة وللقراءة بس"
+     }
+    },
+    "en": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "The tag is locked (read-only)"
+     }
+    }
+   }
+  },
+  "err.title": {
+   "extractionState": "manual",
+   "localizations": {
+    "ar": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "ما زبطت"
+     }
+    },
+    "en": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Something went wrong"
+     }
+    }
+   }
+  },
+  "err.tooBig": {
+   "extractionState": "manual",
+   "localizations": {
+    "ar": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "البيانات %d بايت والبطاقة تتسع %d بس"
+     }
+    },
+    "en": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Data is %d bytes but the tag fits %d"
+     }
+    }
+   }
+  },
+  "err.unavailable": {
+   "extractionState": "manual",
+   "localizations": {
+    "ar": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "NFC غير متاح على هذا الجهاز"
+     }
+    },
+    "en": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "NFC isn't available on this device"
+     }
+    }
+   }
+  },
+  "export.bin": {
+   "extractionState": "manual",
+   "localizations": {
+    "ar": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "تصدير BIN"
+     }
+    },
+    "en": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Export BIN"
+     }
+    }
+   }
+  },
+  "export.hex": {
+   "extractionState": "manual",
+   "localizations": {
+    "ar": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "تصدير HEX"
+     }
+    },
+    "en": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Export HEX"
+     }
+    }
+   }
+  },
+  "export.txt": {
+   "extractionState": "manual",
+   "localizations": {
+    "ar": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "تصدير نص"
+     }
+    },
+    "en": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Export TXT"
+     }
+    }
+   }
+  },
+  "field.address": {
+   "extractionState": "manual",
+   "localizations": {
+    "ar": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "العنوان"
+     }
+    },
+    "en": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Address"
+     }
+    }
+   }
+  },
+  "field.androidPkg": {
+   "extractionState": "manual",
+   "localizations": {
+    "ar": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "اسم حزمة أندرويد (اختياري)"
+     }
+    },
+    "en": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Android package (optional)"
+     }
+    }
+   }
+  },
+  "field.email": {
+   "extractionState": "manual",
+   "localizations": {
+    "ar": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "الإيميل"
+     }
+    },
+    "en": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Email"
+     }
+    }
+   }
+  },
+  "field.hex": {
+   "extractionState": "manual",
+   "localizations": {
+    "ar": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "أو بيانات HEX (اختياري)"
+     }
+    },
+    "en": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Or HEX payload (optional)"
+     }
+    }
+   }
+  },
+  "field.lang": {
+   "extractionState": "manual",
+   "localizations": {
+    "ar": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "اللغة"
+     }
+    },
+    "en": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Language"
+     }
+    }
+   }
+  },
+  "field.lat": {
+   "extractionState": "manual",
+   "localizations": {
+    "ar": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "خط العرض"
+     }
+    },
+    "en": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Latitude"
+     }
+    }
+   }
+  },
+  "field.lon": {
+   "extractionState": "manual",
+   "localizations": {
+    "ar": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "خط الطول"
+     }
+    },
+    "en": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Longitude"
+     }
+    }
+   }
+  },
+  "field.message": {
+   "extractionState": "manual",
+   "localizations": {
+    "ar": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "الرسالة"
+     }
+    },
+    "en": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Message"
+     }
+    }
+   }
+  },
+  "field.mime": {
+   "extractionState": "manual",
+   "localizations": {
+    "ar": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "نوع MIME مثل application/json"
+     }
+    },
+    "en": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "MIME type e.g. application/json"
+     }
+    }
+   }
+  },
+  "field.name": {
+   "extractionState": "manual",
+   "localizations": {
+    "ar": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "الاسم"
+     }
+    },
+    "en": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Name"
+     }
+    }
+   }
+  },
+  "field.org": {
+   "extractionState": "manual",
+   "localizations": {
+    "ar": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "الشركة"
+     }
+    },
+    "en": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Company"
+     }
+    }
+   }
+  },
+  "field.password": {
+   "extractionState": "manual",
+   "localizations": {
+    "ar": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "كلمة السر"
+     }
+    },
+    "en": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Password"
+     }
+    }
+   }
+  },
+  "field.payload": {
+   "extractionState": "manual",
+   "localizations": {
+    "ar": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "المحتوى"
+     }
+    },
+    "en": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Payload"
+     }
+    }
+   }
+  },
+  "field.phone": {
+   "extractionState": "manual",
+   "localizations": {
+    "ar": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "الجوال"
+     }
+    },
+    "en": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Phone"
+     }
+    }
+   }
+  },
+  "field.security": {
+   "extractionState": "manual",
+   "localizations": {
+    "ar": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "الحماية"
+     }
+    },
+    "en": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Security"
+     }
+    }
+   }
+  },
+  "field.shortcutName": {
+   "extractionState": "manual",
+   "localizations": {
+    "ar": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "اسم الاختصار بالضبط"
+     }
+    },
+    "en": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Exact shortcut name"
+     }
+    }
+   }
+  },
+  "field.ssid": {
+   "extractionState": "manual",
+   "localizations": {
+    "ar": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "اسم الشبكة"
+     }
+    },
+    "en": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Network name"
+     }
+    }
+   }
+  },
+  "field.subject": {
+   "extractionState": "manual",
+   "localizations": {
+    "ar": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "الموضوع"
+     }
+    },
+    "en": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Subject"
+     }
+    }
+   }
+  },
+  "field.text": {
+   "extractionState": "manual",
+   "localizations": {
+    "ar": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "النص"
+     }
+    },
+    "en": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Text"
+     }
+    }
+   }
+  },
+  "field.title": {
+   "extractionState": "manual",
+   "localizations": {
+    "ar": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "المسمى الوظيفي"
+     }
+    },
+    "en": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Job title"
+     }
+    }
+   }
+  },
+  "field.website": {
+   "extractionState": "manual",
+   "localizations": {
+    "ar": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "الموقع"
+     }
+    },
+    "en": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Website"
+     }
+    }
+   }
+  },
+  "history.clear": {
+   "extractionState": "manual",
+   "localizations": {
+    "ar": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "مسح السجل"
+     }
+    },
+    "en": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Clear history"
+     }
+    }
+   }
+  },
+  "history.empty": {
+   "extractionState": "manual",
+   "localizations": {
+    "ar": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "ما قريت أي بطاقة للحين"
+     }
+    },
+    "en": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "No scans yet"
+     }
+    }
+   }
+  },
+  "history.saved": {
+   "extractionState": "manual",
+   "localizations": {
+    "ar": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "المحفوظات"
+     }
+    },
+    "en": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Saved"
+     }
+    }
+   }
+  },
+  "history.scans": {
+   "extractionState": "manual",
+   "localizations": {
+    "ar": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "القراءات"
+     }
+    },
+    "en": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Scans"
+     }
+    }
+   }
+  },
+  "info.password": {
+   "extractionState": "manual",
+   "localizations": {
+    "ar": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "محمية بكلمة سر"
+     }
+    },
+    "en": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Password protected"
+     }
+    }
+   }
+  },
+  "info.signature": {
+   "extractionState": "manual",
+   "localizations": {
+    "ar": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "توقيع الأصالة"
+     }
+    },
+    "en": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Originality signature"
+     }
+    }
+   }
+  },
+  "info.size": {
+   "extractionState": "manual",
+   "localizations": {
+    "ar": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "الحجم"
+     }
+    },
+    "en": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Size"
+     }
+    }
+   }
+  },
+  "info.standard": {
+   "extractionState": "manual",
+   "localizations": {
+    "ar": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "المعيار"
+     }
+    },
+    "en": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Standard"
+     }
+    }
+   }
+  },
+  "info.tech": {
+   "extractionState": "manual",
+   "localizations": {
+    "ar": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "التقنية"
+     }
+    },
+    "en": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Technology"
+     }
+    }
+   }
+  },
+  "info.type": {
+   "extractionState": "manual",
+   "localizations": {
+    "ar": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "نوع البطاقة"
+     }
+    },
+    "en": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Tag type"
+     }
+    }
+   }
+  },
+  "info.uid": {
+   "extractionState": "manual",
+   "localizations": {
+    "ar": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "المعرّف UID"
+     }
+    },
+    "en": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Serial (UID)"
+     }
+    }
+   }
+  },
+  "info.writable": {
+   "extractionState": "manual",
+   "localizations": {
+    "ar": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "قابلة للكتابة"
+     }
+    },
+    "en": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Writable"
+     }
+    }
+   }
+  },
+  "kind.app": {
+   "extractionState": "manual",
+   "localizations": {
+    "ar": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "رابط تطبيق"
+     }
+    },
+    "en": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "App link"
+     }
+    }
+   }
+  },
+  "kind.contact": {
+   "extractionState": "manual",
+   "localizations": {
+    "ar": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "بطاقة تواصل"
+     }
+    },
+    "en": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Contact"
+     }
+    }
+   }
+  },
+  "kind.custom": {
+   "extractionState": "manual",
+   "localizations": {
+    "ar": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "مخصص"
+     }
+    },
+    "en": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Custom"
+     }
+    }
+   }
+  },
+  "kind.email": {
+   "extractionState": "manual",
+   "localizations": {
+    "ar": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "إيميل"
+     }
+    },
+    "en": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Email"
+     }
+    }
+   }
+  },
+  "kind.empty": {
+   "extractionState": "manual",
+   "localizations": {
+    "ar": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "فارغ"
+     }
+    },
+    "en": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Empty"
+     }
+    }
+   }
+  },
+  "kind.location": {
+   "extractionState": "manual",
+   "localizations": {
+    "ar": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "موقع"
+     }
+    },
+    "en": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Location"
+     }
+    }
+   }
+  },
+  "kind.phone": {
+   "extractionState": "manual",
+   "localizations": {
+    "ar": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "اتصال"
+     }
+    },
+    "en": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Phone"
+     }
+    }
+   }
+  },
+  "kind.poster": {
+   "extractionState": "manual",
+   "localizations": {
+    "ar": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "ملصق ذكي"
+     }
+    },
+    "en": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Smart poster"
+     }
+    }
+   }
+  },
+  "kind.qr": {
+   "extractionState": "manual",
+   "localizations": {
+    "ar": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "من QR"
+     }
+    },
+    "en": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "From QR"
+     }
+    }
+   }
+  },
+  "kind.shortcut": {
+   "extractionState": "manual",
+   "localizations": {
+    "ar": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "اختصار"
+     }
+    },
+    "en": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Shortcut"
+     }
+    }
+   }
+  },
+  "kind.sms": {
+   "extractionState": "manual",
+   "localizations": {
+    "ar": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "رسالة"
+     }
+    },
+    "en": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "SMS"
+     }
+    }
+   }
+  },
+  "kind.text": {
+   "extractionState": "manual",
+   "localizations": {
+    "ar": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "نص"
+     }
+    },
+    "en": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Text"
+     }
+    }
+   }
+  },
+  "kind.url": {
+   "extractionState": "manual",
+   "localizations": {
+    "ar": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "رابط"
+     }
+    },
+    "en": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "URL"
+     }
+    }
+   }
+  },
+  "kind.wifi": {
+   "extractionState": "manual",
+   "localizations": {
+    "ar": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "واي فاي"
+     }
+    },
+    "en": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Wi‑Fi"
+     }
+    }
+   }
+  },
+  "lock.body": {
+   "extractionState": "manual",
+   "localizations": {
+    "ar": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "القفل نهائي. بعده ما تقدر تكتب أو تمسح البطاقة أبدًا، ولا يوجد طريقة للتراجع"
+     }
+    },
+    "en": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Locking is permanent. You will never be able to write or erase this tag again, and it can't be undone"
+     }
+    }
+   }
+  },
+  "lock.go": {
+   "extractionState": "manual",
+   "localizations": {
+    "ar": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "اقفل البطاقة نهائيًا"
+     }
+    },
+    "en": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Lock tag permanently"
+     }
+    }
+   }
+  },
+  "lock.title": {
+   "extractionState": "manual",
+   "localizations": {
+    "ar": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "قفل نهائي"
+     }
+    },
+    "en": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Permanent lock"
+     }
+    }
+   }
+  },
+  "lock.type": {
+   "extractionState": "manual",
+   "localizations": {
+    "ar": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "اكتب «%@» للتأكيد"
+     }
+    },
+    "en": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Type “%@” to confirm"
+     }
+    }
+   }
+  },
+  "lock.understand": {
+   "extractionState": "manual",
+   "localizations": {
+    "ar": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "فاهم إن القفل ما يتراجع"
+     }
+    },
+    "en": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "I understand this can't be undone"
+     }
+    }
+   }
+  },
+  "lock.word": {
+   "extractionState": "manual",
+   "localizations": {
+    "ar": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "قفل"
+     }
+    },
+    "en": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "LOCK"
+     }
+    }
+   }
+  },
+  "nfc.batch.next": {
+   "extractionState": "manual",
+   "localizations": {
+    "ar": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "انكتبت %d بطاقة، قرّب اللي بعدها"
+     }
+    },
+    "en": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "%d tags written, hold the next one"
+     }
+    }
+   }
+  },
+  "nfc.done.dump": {
+   "extractionState": "manual",
+   "localizations": {
+    "ar": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "تمت قراءة الذاكرة"
+     }
+    },
+    "en": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Memory read"
+     }
+    }
+   }
+  },
+  "nfc.done.erase": {
+   "extractionState": "manual",
+   "localizations": {
+    "ar": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "انمسحت البطاقة"
+     }
+    },
+    "en": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Tag erased"
+     }
+    }
+   }
+  },
+  "nfc.done.lock": {
+   "extractionState": "manual",
+   "localizations": {
+    "ar": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "انقفلت البطاقة"
+     }
+    },
+    "en": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Tag locked"
+     }
+    }
+   }
+  },
+  "nfc.done.pwdRemoved": {
+   "extractionState": "manual",
+   "localizations": {
+    "ar": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "انشالت كلمة السر"
+     }
+    },
+    "en": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Password removed"
+     }
+    }
+   }
+  },
+  "nfc.done.pwdSet": {
+   "extractionState": "manual",
+   "localizations": {
+    "ar": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "تم وضع كلمة السر"
+     }
+    },
+    "en": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Password set"
+     }
+    }
+   }
+  },
+  "nfc.done.read": {
+   "extractionState": "manual",
+   "localizations": {
+    "ar": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "تمت القراءة"
+     }
+    },
+    "en": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Tag read"
+     }
+    }
+   }
+  },
+  "nfc.done.write": {
+   "extractionState": "manual",
+   "localizations": {
+    "ar": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "تمت الكتابة"
+     }
+    },
+    "en": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Tag written"
+     }
+    }
+   }
+  },
+  "nfc.many": {
+   "extractionState": "manual",
+   "localizations": {
+    "ar": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "فيه أكثر من بطاقة، قرّب وحدة بس"
+     }
+    },
+    "en": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "More than one tag, hold just one"
+     }
+    }
+   }
+  },
+  "nfc.prompt.batch": {
+   "extractionState": "manual",
+   "localizations": {
+    "ar": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "كتابة متعددة: قرّب البطاقات وحدة وحدة"
+     }
+    },
+    "en": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Batch write: hold tags one by one"
+     }
+    }
+   }
+  },
+  "nfc.prompt.dump": {
+   "extractionState": "manual",
+   "localizations": {
+    "ar": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "قرّب البطاقة لقراءة الذاكرة"
+     }
+    },
+    "en": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Hold the tag to read its memory"
+     }
+    }
+   }
+  },
+  "nfc.prompt.erase": {
+   "extractionState": "manual",
+   "localizations": {
+    "ar": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "قرّب البطاقة لمسحها"
+     }
+    },
+    "en": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Hold the tag to erase it"
+     }
+    }
+   }
+  },
+  "nfc.prompt.lock": {
+   "extractionState": "manual",
+   "localizations": {
+    "ar": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "قرّب البطاقة لقفلها نهائيًا"
+     }
+    },
+    "en": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Hold the tag to lock it permanently"
+     }
+    }
+   }
+  },
+  "nfc.prompt.password": {
+   "extractionState": "manual",
+   "localizations": {
+    "ar": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "قرّب البطاقة"
+     }
+    },
+    "en": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Hold the tag near your iPhone"
+     }
+    }
+   }
+  },
+  "nfc.prompt.read": {
+   "extractionState": "manual",
+   "localizations": {
+    "ar": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "قرّب البطاقة من أعلى الجوال"
+     }
+    },
+    "en": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Hold the tag near the top of your iPhone"
+     }
+    }
+   }
+  },
+  "nfc.prompt.write": {
+   "extractionState": "manual",
+   "localizations": {
+    "ar": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "قرّب البطاقة للكتابة"
+     }
+    },
+    "en": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Hold the tag to write"
+     }
+    }
+   }
+  },
+  "no": {
+   "extractionState": "manual",
+   "localizations": {
+    "ar": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "لا"
+     }
+    },
+    "en": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "No"
+     }
+    }
+   }
+  },
+  "ok": {
+   "extractionState": "manual",
+   "localizations": {
+    "ar": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "تمام"
+     }
+    },
+    "en": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "OK"
+     }
+    }
+   }
+  },
+  "profile.default": {
+   "extractionState": "manual",
+   "localizations": {
+    "ar": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "سجلاتي"
+     }
+    },
+    "en": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "My records"
+     }
+    }
+   }
+  },
+  "pwd.field": {
+   "extractionState": "manual",
+   "localizations": {
+    "ar": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "4 أحرف أو 8 خانات HEX"
+     }
+    },
+    "en": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "4 characters or 8 HEX digits"
+     }
+    }
+   }
+  },
+  "pwd.help": {
+   "extractionState": "manual",
+   "localizations": {
+    "ar": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "لـ NTAG213/215/216 و Ultralight EV1. تحمي البطاقة من الكتابة، والقراءة تبقى متاحة"
+     }
+    },
+    "en": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "For NTAG213/215/216 and Ultralight EV1. Protects writing; reading stays open"
+     }
+    }
+   }
+  },
+  "pwd.warn": {
+   "extractionState": "manual",
+   "localizations": {
+    "ar": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "لو نسيت كلمة السر ما تقدر تعدّل البطاقة"
+     }
+    },
+    "en": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "If you forget the password you can't change the tag"
+     }
+    }
+   }
+  },
+  "qr.found": {
+   "extractionState": "manual",
+   "localizations": {
+    "ar": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "المحتوى"
+     }
+    },
+    "en": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Content"
+     }
+    }
+   }
+  },
+  "qr.unavailable": {
+   "extractionState": "manual",
+   "localizations": {
+    "ar": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "الكاميرا غير متاحة"
+     }
+    },
+    "en": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Camera isn't available"
+     }
+    }
+   }
+  },
+  "read.empty": {
+   "extractionState": "manual",
+   "localizations": {
+    "ar": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "البطاقة فاضية"
+     }
+    },
+    "en": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "The tag is empty"
+     }
+    }
+   }
+  },
+  "read.hint": {
+   "extractionState": "manual",
+   "localizations": {
+    "ar": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "قرّب البطاقة من أعلى الجوال"
+     }
+    },
+    "en": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Hold a tag near the top of your iPhone"
+     }
+    }
+   }
+  },
+  "read.last": {
+   "extractionState": "manual",
+   "localizations": {
+    "ar": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "آخر قراءة"
+     }
+    },
+    "en": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Last scan"
+     }
+    }
+   }
+  },
+  "read.records": {
+   "extractionState": "manual",
+   "localizations": {
+    "ar": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "%d سجل"
+     }
+    },
+    "en": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "%d records"
+     }
+    }
+   }
+  },
+  "read.result": {
+   "extractionState": "manual",
+   "localizations": {
+    "ar": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "نتيجة القراءة"
+     }
+    },
+    "en": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Scan result"
+     }
+    }
+   }
+  },
+  "read.start": {
+   "extractionState": "manual",
+   "localizations": {
+    "ar": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "ابدأ القراءة"
+     }
+    },
+    "en": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Start scanning"
+     }
+    }
+   }
+  },
+  "save.name": {
+   "extractionState": "manual",
+   "localizations": {
+    "ar": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "اسم الحفظ"
+     }
+    },
+    "en": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Name"
+     }
+    }
+   }
+  },
+  "saved.empty": {
+   "extractionState": "manual",
+   "localizations": {
+    "ar": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "احفظ سجلاتك من الكتابة أو القراءة وتلقاها هنا"
+     }
+    },
+    "en": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Save records from Write or a scan to find them here"
+     }
+    }
+   }
+  },
+  "shortcut.note": {
+   "extractionState": "manual",
+   "localizations": {
+    "ar": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "لما أحد يلمس البطاقة يفتح تطبيق الاختصارات ويشغّل الاختصار. للأتمتة بدون سؤال سوّ أتمتة NFC في تطبيق الاختصارات"
+     }
+    },
+    "en": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Tapping opens Shortcuts and runs it. For hands-free automation, add an NFC automation in Shortcuts"
+     }
+    }
+   }
+  },
+  "tab.history": {
+   "extractionState": "manual",
+   "localizations": {
+    "ar": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "السجل"
+     }
+    },
+    "en": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "History"
+     }
+    }
+   }
+  },
+  "tab.read": {
+   "extractionState": "manual",
+   "localizations": {
+    "ar": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "قراءة"
+     }
+    },
+    "en": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Read"
+     }
+    }
+   }
+  },
+  "tab.tools": {
+   "extractionState": "manual",
+   "localizations": {
+    "ar": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "أدوات"
+     }
+    },
+    "en": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Tools"
+     }
+    }
+   }
+  },
+  "tab.write": {
+   "extractionState": "manual",
+   "localizations": {
+    "ar": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "كتابة"
+     }
+    },
+    "en": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Write"
+     }
+    }
+   }
+  },
+  "tools.batch": {
+   "extractionState": "manual",
+   "localizations": {
+    "ar": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "كتابة متعددة"
+     }
+    },
+    "en": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Batch write"
+     }
+    }
+   }
+  },
+  "tools.batch.desc": {
+   "extractionState": "manual",
+   "localizations": {
+    "ar": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "نفس البيانات على بطاقات كثيرة ورا بعض"
+     }
+    },
+    "en": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Write the same data to many tags in a row"
+     }
+    }
+   }
+  },
+  "tools.copy": {
+   "extractionState": "manual",
+   "localizations": {
+    "ar": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "نسخ بطاقة"
+     }
+    },
+    "en": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Copy tag"
+     }
+    }
+   }
+  },
+  "tools.copy.desc": {
+   "extractionState": "manual",
+   "localizations": {
+    "ar": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "اقرأ بطاقة وبعدها اكتب محتواها على ثانية"
+     }
+    },
+    "en": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Read a tag, then write its content to another"
+     }
+    }
+   }
+  },
+  "tools.copy.step2": {
+   "extractionState": "manual",
+   "localizations": {
+    "ar": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "انقرت، الحين اضغط وقرّب البطاقة الجديدة"
+     }
+    },
+    "en": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Copied. Tap and hold the new tag"
+     }
+    }
+   }
+  },
+  "tools.dump": {
+   "extractionState": "manual",
+   "localizations": {
+    "ar": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "ذاكرة البطاقة"
+     }
+    },
+    "en": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Tag memory"
+     }
+    }
+   }
+  },
+  "tools.dump.desc": {
+   "extractionState": "manual",
+   "localizations": {
+    "ar": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "عرض HEX صفحة صفحة وتصدير BIN و HEX"
+     }
+    },
+    "en": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Page-by-page HEX view, export BIN and HEX"
+     }
+    }
+   }
+  },
+  "tools.erase": {
+   "extractionState": "manual",
+   "localizations": {
+    "ar": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "مسح"
+     }
+    },
+    "en": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Erase"
+     }
+    }
+   }
+  },
+  "tools.erase.confirm": {
+   "extractionState": "manual",
+   "localizations": {
+    "ar": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "كل السجلات اللي على البطاقة بتنمسح"
+     }
+    },
+    "en": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "All records on the tag will be removed"
+     }
+    }
+   }
+  },
+  "tools.erase.desc": {
+   "extractionState": "manual",
+   "localizations": {
+    "ar": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "يشيل كل السجلات ويخليها فاضية"
+     }
+    },
+    "en": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Remove all records and leave it empty"
+     }
+    }
+   }
+  },
+  "tools.format": {
+   "extractionState": "manual",
+   "localizations": {
+    "ar": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "تهيئة"
+     }
+    },
+    "en": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Format"
+     }
+    }
+   }
+  },
+  "tools.format.confirm": {
+   "extractionState": "manual",
+   "localizations": {
+    "ar": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "البطاقة بترجع NDEF فاضية"
+     }
+    },
+    "en": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "The tag will be reset to an empty NDEF tag"
+     }
+    }
+   }
+  },
+  "tools.format.desc": {
+   "extractionState": "manual",
+   "localizations": {
+    "ar": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "يرجّع NTAG لحالة NDEF فاضية"
+     }
+    },
+    "en": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Reset NTAG to an empty NDEF state"
+     }
+    }
+   }
+  },
+  "tools.lock": {
+   "extractionState": "manual",
+   "localizations": {
+    "ar": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "قفل نهائي"
+     }
+    },
+    "en": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Lock permanently"
+     }
+    }
+   }
+  },
+  "tools.lock.desc": {
+   "extractionState": "manual",
+   "localizations": {
+    "ar": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "يخلي البطاقة للقراءة بس، ما يتراجع"
+     }
+    },
+    "en": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Make it read-only forever"
+     }
+    }
+   }
+  },
+  "tools.note": {
+   "extractionState": "manual",
+   "localizations": {
+    "ar": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "بعض البطاقات مثل MIFARE Classic ما يدعمها الآيفون"
+     }
+    },
+    "en": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Some tags such as MIFARE Classic aren't supported by iPhone"
+     }
+    }
+   }
+  },
+  "tools.pwdRemove": {
+   "extractionState": "manual",
+   "localizations": {
+    "ar": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "شيل كلمة السر"
+     }
+    },
+    "en": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Remove password"
+     }
+    }
+   }
+  },
+  "tools.pwdRemove.desc": {
+   "extractionState": "manual",
+   "localizations": {
+    "ar": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "يفك الحماية بكلمة السر الحالية"
+     }
+    },
+    "en": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Unprotect with the current password"
+     }
+    }
+   }
+  },
+  "tools.pwdSet": {
+   "extractionState": "manual",
+   "localizations": {
+    "ar": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "ضع كلمة سر"
+     }
+    },
+    "en": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Set password"
+     }
+    }
+   }
+  },
+  "tools.pwdSet.desc": {
+   "extractionState": "manual",
+   "localizations": {
+    "ar": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "يمنع الكتابة على NTAG بدون كلمة السر"
+     }
+    },
+    "en": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Block writing on NTAG without the password"
+     }
+    }
+   }
+  },
+  "tools.section.protect": {
+   "extractionState": "manual",
+   "localizations": {
+    "ar": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "الحماية"
+     }
+    },
+    "en": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Protection"
+     }
+    }
+   }
+  },
+  "tools.section.reset": {
+   "extractionState": "manual",
+   "localizations": {
+    "ar": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "مسح وتهيئة"
+     }
+    },
+    "en": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Erase & format"
+     }
+    }
+   }
+  },
+  "tools.section.tag": {
+   "extractionState": "manual",
+   "localizations": {
+    "ar": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "البطاقة"
+     }
+    },
+    "en": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Tag"
+     }
+    }
+   }
+  },
+  "wifi.note": {
+   "extractionState": "manual",
+   "localizations": {
+    "ar": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "الآيفون يعرض الشبكة، والأندرويد يتصل فيها مباشرة"
+     }
+    },
+    "en": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "iPhone shows the network; Android can join directly"
+     }
+    }
+   }
+  },
+  "write.batch": {
+   "extractionState": "manual",
+   "localizations": {
+    "ar": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "كتابة متعددة"
+     }
+    },
+    "en": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Batch write"
+     }
+    }
+   }
+  },
+  "write.clear": {
+   "extractionState": "manual",
+   "localizations": {
+    "ar": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "مسح الكل"
+     }
+    },
+    "en": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Clear"
+     }
+    }
+   }
+  },
+  "write.emptyHint": {
+   "extractionState": "manual",
+   "localizations": {
+    "ar": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "اختر نوع وأضفه، تقدر تجمع أكثر من سجل في بطاقة وحدة"
+     }
+    },
+    "en": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Pick a type to add it. You can combine several records on one tag"
+     }
+    }
+   }
+  },
+  "write.fits": {
+   "extractionState": "manual",
+   "localizations": {
+    "ar": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "تكفيها %@ أو أكبر"
+     }
+    },
+    "en": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Fits on %@ or larger"
+     }
+    }
+   }
+  },
+  "write.go": {
+   "extractionState": "manual",
+   "localizations": {
+    "ar": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "اكتب على البطاقة"
+     }
+    },
+    "en": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Write to tag"
+     }
+    }
+   }
+  },
+  "write.goBatch": {
+   "extractionState": "manual",
+   "localizations": {
+    "ar": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "ابدأ الكتابة المتعددة"
+     }
+    },
+    "en": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Start batch write"
+     }
+    }
+   }
+  },
+  "write.saveProfile": {
+   "extractionState": "manual",
+   "localizations": {
+    "ar": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "احفظ السجلات"
+     }
+    },
+    "en": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Save records"
+     }
+    }
+   }
+  },
+  "write.summary": {
+   "extractionState": "manual",
+   "localizations": {
+    "ar": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "في الرسالة · %d سجل · %d بايت"
+     }
+    },
+    "en": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "In message · %d records · %d bytes"
+     }
+    }
+   }
+  },
+  "write.withPassword": {
+   "extractionState": "manual",
+   "localizations": {
+    "ar": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "البطاقة محمية بكلمة سر"
+     }
+    },
+    "en": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Tag is password protected"
+     }
+    }
+   }
+  },
+  "yes": {
+   "extractionState": "manual",
+   "localizations": {
+    "ar": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "نعم"
+     }
+    },
+    "en": {
+     "stringUnit": {
+      "state": "translated",
+      "value": "Yes"
+     }
+    }
+   }
+  }
+ }
+}

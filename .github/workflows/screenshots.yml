@@ -1,0 +1,37 @@
+name: Screenshots
+on: workflow_dispatch
+jobs:
+  shots:
+    runs-on: macos-26
+    timeout-minutes: 50
+    steps:
+      - uses: actions/checkout@v4
+      - uses: maxim-lobanov/setup-xcode@v1
+        with: { xcode-version: latest-stable }
+      - run: brew install xcodegen && xcodegen generate
+      - name: Capture on every iPhone size
+        run: |
+          xcrun simctl list devices available | grep -E "iPhone" | sort -u
+          FIRST=$(xcrun simctl list devices available | grep -E "iPhone 1[6-9]" | head -1 | grep -oE "[A-F0-9-]{36}")
+          xcodebuild build -project Lamsa.xcodeproj -scheme Lamsa -configuration Debug -destination "id=$FIRST" -derivedDataPath build CODE_SIGNING_ALLOWED=NO -quiet
+          APP=$(find build/Build/Products -name Lamsa.app -path "*iphonesimulator*" | head -1)
+          mkdir -p shots
+          for NAME in "iPhone SE (3rd generation)" "iPhone 16e" "iPhone 13 mini" "iPhone 16" "iPhone 16 Pro Max" "iPhone 17" "iPhone 17 Pro" "iPhone 17 Pro Max" "iPhone Air"; do
+            UDID=$(xcrun simctl list devices available | grep -F "$NAME (" | head -1 | grep -oE "[A-F0-9-]{36}")
+            [ -z "$UDID" ] && { echo "skip $NAME"; continue; }
+            S=$(echo "$NAME" | tr -cd 'A-Za-z0-9')
+            xcrun simctl boot $UDID || true; xcrun simctl bootstatus $UDID -b
+            xcrun simctl status_bar $UDID override --time 9:41 --batteryState charged --batteryLevel 100 || true
+            xcrun simctl install $UDID "$APP"
+            shot(){ n=$1; shift; xcrun simctl terminate $UDID com.moha700m.lamsa || true; xcrun simctl launch $UDID com.moha700m.lamsa -demo YES "$@"; sleep 5; xcrun simctl io $UDID screenshot "shots/$S-$n.png"; }
+            shot 1-read -tab 0 -lang ar
+            shot 2-result -tab 0 -demoResult YES -lang ar
+            shot 3-write -tab 1 -lang ar
+            shot 4-tools -tab 2 -lang ar
+            shot 5-history -tab 3 -lang ar
+            shot 6-read-en -tab 0 -demoResult YES -lang en
+            xcrun simctl shutdown $UDID || true
+          done
+          ls shots
+      - uses: actions/upload-artifact@v4
+        with: { name: screenshots, path: shots/ }

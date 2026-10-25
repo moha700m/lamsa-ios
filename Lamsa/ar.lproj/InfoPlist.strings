@@ -1,0 +1,3 @@
+"CFBundleDisplayName" = "لمسة";
+"NFCReaderUsageDescription" = "لمسة يستخدم NFC عشان يقرأ البطاقات والملصقات ويكتب عليها";
+"NSCameraUsageDescription" = "الكاميرا لمسح رمز QR وتحويله لبطاقة NFC";

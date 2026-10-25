@@ -1,0 +1,59 @@
+name: Release to TestFlight
+on:
+  workflow_dispatch:
+jobs:
+  testflight:
+    runs-on: macos-26
+    timeout-minutes: 50
+    env:
+      ASC_KEY_ID: ${{ secrets.ASC_KEY_ID }}
+      ASC_ISSUER_ID: ${{ secrets.ASC_ISSUER_ID }}
+      TEAM_ID: ${{ secrets.TEAM_ID }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: maxim-lobanov/setup-xcode@v1
+        with:
+          xcode-version: latest-stable
+      - run: brew install xcodegen && xcodegen generate
+      - name: Install API key
+        env:
+          ASC_KEY_P8: ${{ secrets.ASC_KEY_P8 }}
+        run: |
+          mkdir -p ~/.appstoreconnect/private_keys
+          KEY=~/.appstoreconnect/private_keys/AuthKey_${ASC_KEY_ID}.p8
+          printf '%s\n' "$ASC_KEY_P8" > "$KEY"
+          echo "KEY_PATH=$KEY" >> $GITHUB_ENV
+      - name: Archive (unsigned)
+        run: |
+          set -o pipefail
+          xcodebuild archive -project Lamsa.xcodeproj -scheme Lamsa -configuration Release \
+            -destination 'generic/platform=iOS' -archivePath build/Lamsa.xcarchive \
+            DEVELOPMENT_TEAM=$TEAM_ID CURRENT_PROJECT_VERSION=${{ github.run_number }} MARKETING_VERSION=1.0 \
+            CODE_SIGNING_ALLOWED=NO CODE_SIGNING_REQUIRED=NO CODE_SIGN_IDENTITY="" | tail -100
+      - name: Embed NFC entitlements into archive
+        run: |
+          set -euo pipefail
+          APP=build/Lamsa.xcarchive/Products/Applications/Lamsa.app
+          codesign --force --sign - --entitlements Lamsa/Lamsa.entitlements --timestamp=none "$APP"
+          codesign -d --entitlements - "$APP" | head -20
+      - name: Export (cloud sign) and upload to TestFlight
+        run: |
+          set -o pipefail
+          cat > ExportOptions.plist <<PLIST
+          <?xml version="1.0" encoding="UTF-8"?>
+          <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+          <plist version="1.0"><dict>
+          <key>method</key><string>app-store-connect</string>
+          <key>destination</key><string>upload</string>
+          <key>teamID</key><string>$TEAM_ID</string>
+          <key>signingStyle</key><string>automatic</string>
+          <key>uploadSymbols</key><true/>
+          <key>manageAppVersionAndBuildNumber</key><false/>
+          </dict></plist>
+          PLIST
+          xcodebuild -exportArchive -archivePath build/Lamsa.xcarchive -exportPath build/export \
+            -exportOptionsPlist ExportOptions.plist -allowProvisioningUpdates \
+            -authenticationKeyPath "$KEY_PATH" -authenticationKeyID "$ASC_KEY_ID" \
+            -authenticationKeyIssuerID "$ASC_ISSUER_ID" 2>&1 | tail -150
+      - if: always()
+        run: rm -rf ~/.appstoreconnect

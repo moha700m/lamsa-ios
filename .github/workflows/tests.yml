@@ -1,0 +1,22 @@
+name: Tests
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+jobs:
+  test:
+    runs-on: macos-26
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - uses: maxim-lobanov/setup-xcode@v1
+        with: { xcode-version: latest-stable }
+      - run: brew install xcodegen && xcodegen generate
+      - name: Unit tests (NDEF codec)
+        run: |
+          set +e
+          UDID=$(xcrun simctl list devices available | grep -E "iPhone 1[6-9]" | head -1 | grep -oE "[A-F0-9-]{36}")
+          xcodebuild test -project Lamsa.xcodeproj -scheme Lamsa -destination "id=$UDID" CODE_SIGNING_ALLOWED=NO > test.log 2>&1
+          rc=$?
+          grep -E "error:|Test Case.*(passed|failed)|XCTAssert|Executed|TEST (SUCCEEDED|FAILED)" test.log | tail -80
+          exit $rc
